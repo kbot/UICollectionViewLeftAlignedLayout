@@ -1,7 +1,7 @@
 version = "1.0.2"
 
 Pod::Spec.new do |s|
-  s.name         = "LodiCollectionViewLeftAlignedLayout"
+  s.name         = "UICollectionViewLeftAlignedLayout"
   s.version      = version
   s.summary      = "A layout for UICollectionView that aligns the cells to the left "
   s.description  = <<-DESC
