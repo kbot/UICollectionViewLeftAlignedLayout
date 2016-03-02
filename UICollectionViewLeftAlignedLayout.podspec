@@ -1,13 +1,14 @@
 version = "1.0.2"
 
 Pod::Spec.new do |s|
-  s.name         = "UICollectionViewLeftAlignedLayout"
+  s.name         = "LodiCollectionViewLeftAlignedLayout"
   s.version      = version
   s.summary      = "A layout for UICollectionView that aligns the cells to the left "
   s.description  = <<-DESC
                    A `UICollectionViewLayout` implementation that aligns the cells to the left.
 
                    It uses `UICollectionViewFlowLayout` under the hood.
+                   Now with less naming convention overlap
                    DESC
   s.homepage     = "https://github.com/mokagio/UICollectionViewLeftAlignedLayout"
   s.screenshots  = "https://raw.githubusercontent.com/mokagio/UICollectionViewLeftAlignedLayout/master/screenshot.png"
@@ -16,6 +17,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/mokagio"
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/mokagio/UICollectionViewLeftAlignedLayout.git", :tag => version }
-  s.source_files  = "UICollectionViewLeftAlignedLayout"
+  s.source_files  = "LodiCollectionViewLeftAlignedLayout"
   s.requires_arc = true
 end
